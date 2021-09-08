@@ -1,0 +1,25 @@
+package Primitives;
+
+public class LogicalOperator {
+
+    public static void main(String[] args) {
+
+        int myAge = 15;
+        boolean myDressCode = true;
+
+        int ageA = 21;
+        boolean dressCode = true;
+
+        boolean result1 = myAge >= ageA && myDressCode == dressCode;
+        System.out.println(result1);//false
+
+        myAge = 20;
+        boolean result3 = myAge >= ageA && myDressCode == dressCode;
+        System.out.println(result3);//false
+
+        boolean result4 = myAge <= ageA && myDressCode == dressCode;
+        System.out.println(result4);//true
+
+
+    }
+}
